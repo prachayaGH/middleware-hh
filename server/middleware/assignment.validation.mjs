@@ -22,7 +22,7 @@ export const validateAssignment = (req,res,next) => {
 
     if (content.length < 500 || content.length > 1000) {
         return res.status(400).json({
-            message: "ความยามตัวอักษรไม่ตรงกับที่กำหนด"
+            message: "ความยาวตัวอักษรไม่ตรงกับที่กำหนด"
         })
     }
 
