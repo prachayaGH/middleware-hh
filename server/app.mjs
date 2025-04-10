@@ -1,4 +1,5 @@
 import express from "express";
+import { validateAssignment } from "./middleware/assignment.validation.mjs";
 
 const app = express();
 const port = 4001;
